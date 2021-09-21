@@ -3,13 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import ImageCard from './ImageCard';
 import places from '../static/places';
 import useWindowPosition from '../hook/useWindowPosition';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Link as Scroll } from 'react-scroll';
-import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
-import Buttons from './Button';
+
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '90vh',
+    marginLeft: '40px',
+marginRight: '40px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -23,8 +22,9 @@ export default function () {
   const checked = useWindowPosition('header');
   return (
   <div className={classes.root} id="place-to-visit1">
-      <ImageCard place={places[1]} checked={checked} />
-
+      <ImageCard place={places[3]} checked={checked} />
+      <ImageCard place={places[4]} checked={checked} />
+      <ImageCard place={places[5]} checked={checked} />
 
     </div>
   );

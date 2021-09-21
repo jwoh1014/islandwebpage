@@ -7,10 +7,10 @@ import { Link as Scroll } from 'react-scroll';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    // display: 'flex',
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // fontFamily: 'Nunito',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontFamily: 'Nunito',
   },
 
   colorText: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   goDown: {
-    color: '#96A0FF',
+    color: '#8662F9',
     fontSize: '6rem',
     fontWeight : 'bolder'
   },

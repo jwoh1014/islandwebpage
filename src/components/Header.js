@@ -38,8 +38,11 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
     fontSize: '4.5rem',
   },
+  titles:{
+    fontSize:'1.5rem',
+  },
   goDown: {
-    color: '#96A0FF',
+    color: '#8662F9',
     fontSize: '6rem',
     fontWeight : '900' 
   },
@@ -70,9 +73,12 @@ export default function Header() {
       >
         <div className={classes.container}>
           <h1 className={classes.title}>
-            Welcome to <br />
+            Invite to <br />
             My<span className={classes.colorText}>Island.</span>
+            <br /><span className={classes.titles}>멘토들의 캘린더를 지금 신청하세요</span>
           </h1>
+          <br />
+
           <Scroll to="place-to-visit" smooth={true}>
             <IconButton>
               <ExpandMoreIcon className={classes.goDown} />

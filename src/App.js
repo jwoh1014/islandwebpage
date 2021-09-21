@@ -8,6 +8,7 @@ import PlaceToVisit from './components/PlaceToVisit';
 import PlaceToVisit1 from './components/PlaceToVisit1';
 import SignIn from './components/SignIn'
 import Buttons from './components/Button';
+import { FooterContainer } from './containers/footer'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,6 +30,7 @@ export default function App() {
       <PlaceToVisit1 />
       <Buttons></Buttons>
        <Header3></Header3>
+       <FooterContainer />
     </div>
   );
 }
