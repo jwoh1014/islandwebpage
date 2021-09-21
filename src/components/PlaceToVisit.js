@@ -8,7 +8,7 @@ import { Link as Scroll } from 'react-scroll';
 import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   root: {
-    minHeight: '0vh',
+    minHeight: '90vh',
     marginTop : '40px',
     display: 'flex',
     justifyContent: 'center',
