@@ -1,0 +1,160 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);   
+
+}
+    .loginModal {
+      width: 480px;
+      height: 340px;
+      background-color: white;
+      position: relative;
+      box-sizing: border-box;
+      margin: 50px auto;
+      padding: 10px;
+      background: #fff;      
+          border-radius : 10px;
+    }
+      .close {
+        float: right;
+        font-size: 25px;
+      }
+      .modalContents {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        padding: 0 20px 32px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        }
+        .signinIcon {
+          width: 150px;
+          margin: 0 auto;
+        }
+
+        .loginId {
+          margin-top: 10px;
+          border-radius: 2px;
+          width: 100%;
+          height: 40px;
+          border: 1px solid #e5e5e5;
+          padding: 9px 12px;
+          outline: none;
+          box-sizing: border-box;
+        }
+        input::placeholder {
+          color: #999999;
+        }
+        .loginPw {
+          margin-top: 15px;
+          border-radius: 2px;
+          width: 100%;
+          height: 40px;
+          border: 1px solid #e5e5e5;
+          padding: 9px 12px;
+          outline: none;
+          box-sizing: border-box;
+        }
+
+        .loginMid {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+          .autoLogin {
+            font-size: 12px;
+            color: #8d8d8d;
+            line-height: 3;
+          }
+        
+        .loginBtn {
+          height: 40px;
+          font-size: 14px;
+          padding: 13px 30px;
+          cursor: pointer;
+          background-color: black;
+          color: white;
+          line-height: 1px;
+          margin-top: 20px;
+          margin-bottom: 12px;
+          border-radius: 3px;
+          border-style: none;
+        }
+  
+.loginEnd {
+          text-align: center;
+          font-size: 11px;
+        }
+          .loginLine {
+            color: #bcbcbc;
+            font-size: 11px;
+            margin-bottom: 35px;
+          }
+            a {
+              color: black;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          
+        @font-face {
+              font-family: 'neon';
+              src: url('/island/public/assets/nunito/Nunito-Bold.ttf ') format('truetype');
+          }
+     .name{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     .signinto {
+      font-family: 'neon';
+      font-size: 16px;
+      font-weight: 600;
+    }
+            
+
+          
+          
+
+
+          .button {  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: 90vh;
+            height: 80vh;
+            font-family: 'neon' ;
+            margin: auto;
+            margin-top: 0;
+            color: white;
+            font-weight :900;
+            width: 240px;
+            height: 45px;
+
+            font-size: 22px;
+ 
+            letter-spacing: 2.5px;
+
+            color: #000;
+            background-color: white;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+            }
+          
+          .button:hover {
+            background-color: #2EE59D;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+          }
+
+     
+  
+  
+
